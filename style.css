@@ -9,10 +9,12 @@ header{
     float:left;
     margin: 20px;
 }
+.ideas:hover{
+box-shadow: 8px 8px 4px rgb(123, 230, 208), -8px -8px 4px rgb(123, 230, 208);
+}
 
 #minecraft{
     background-color: aqua;
-
 }
 #eco{
     background-color: aquamarine;
@@ -21,5 +23,5 @@ header{
     background-color: aqua;
 }
 #clone{
-background-color: aquamarine;
+    background-color: aquamarine;
 }
