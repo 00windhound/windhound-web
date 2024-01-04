@@ -10,9 +10,8 @@ header{
     margin: 20px;
 }
 .ideas:hover{
-box-shadow: 8px 8px 4px rgb(123, 230, 208), -8px -8px 4px rgb(123, 230, 208);
+box-shadow: 8px 8px 8px rgb(123, 230, 208), -5px -5px 8px rgb(123, 230, 208);
 }
-
 #minecraft{
     background-color: aqua;
 }
