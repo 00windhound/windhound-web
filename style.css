@@ -1,12 +1,25 @@
 header{
     background-color: aqua;
 }
+.ideas{
+    width: 400px;
+    height: 200px;
+    border: 5px solid grey;
+    padding: 5px;
+    float:left;
+    margin: 20px;
+}
+
 #minecraft{
     background-color: aqua;
-width:49%;
 
 }
 #eco{
-    background-color:aquamarine;
-    width: 49%;
+    background-color: aquamarine;
+}
+#monopoly{
+    background-color: aqua;
+}
+#clone{
+background-color: aquamarine;
 }
