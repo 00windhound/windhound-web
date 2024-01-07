@@ -13,3 +13,8 @@ padding-bottom: 100px;}
 #footer{background-color: bisque;
 position: relative; height: 100px; margin-top: -100px; clear: both;}
 along with putting the body in two layers of div tags container and main and naming the footer is how to get the footer to work. 
+
+margin
+in the head theres a meta charset utf-8 or something like that and thats what you use for
+<script src="rockpaperscissors.js" charset="UTF-8"></script>
+at the bottom of the page
