@@ -3,33 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tutorialgames</title>
+    <link rel="icon" type="image/png" href="icon.png">
+    <title>rockpaperscissors</title>
 </head>
 <body>
   <a href="index.html"> <button>home</button></a>
-<h2>computer choice: <span id="computerchoice"></span></h2>
-<h2>your choice: <span id="userchoice"></span></h2>
-<h2>result: <span id="result"></span></h2>
+<h2 id="a">computer choice: <span id="computerchoice"></span></h2>
+<h2 id="b">your choice: <span id="userchoice"></span></h2>
+<h2 id="c">result: <span id="result"></span></h2>
 
 <button className="options" id="rock">rock</button>
 <button className="options" id="paper">paper</button>
 <button className="options" id="scissors">scissors</button><br>
 
 <!--<button id="reset">reset</button>-->
-<h3>tally</h3>
-<table>
-    <tr>
+<h3 id="d">tally</h3>
+<table id="e">
+    <tr id="f">
         <th>you</th>
         <th>draw</th>
         <th>computer</th>
     </tr>
-    <tr>
+    <tr id="g">
         <td id="wincount"></td>
         <td id="drawcount"></td>
         <td id="losecount"></td>
     </tr>
 </table>
 
- <script src="tutorial.js" charset="UTF-8"></script><!--keep on bottom-->
+ <script src="rockpaperscissors.js" charset="UTF-8"></script><!--keep on bottom-->
 </body>
 </html>
