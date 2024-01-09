@@ -13,9 +13,10 @@ const cardarray=[
     {name:'snake', img:'pics/lilsnake.png'}]
 
     cardarray.sort(() => 0.5 - Math.random())
+    let j = 0
 
    const grid = document.querySelector('#grid')
-   const resultdisplay = document.querySelector('result')
+   const resultdisplay = document.querySelector('#result')
     let cardschosen =[]
     let cardschosenids =[]
     const cardswon = []
@@ -64,8 +65,8 @@ else{
 }
    cardschosen = []
    cardschosenids=[]
-   resultdisplay.innerHTML = cardswon.length
+   resultdisplay.innerHTML = (j += 1)
 
-   if(cardswon.length == cardarray.length/2){resultdisplay.innerHTML= 'you win'}
+   if(cardswon.length == cardarray.length/2){resultdisplay.innerHTML= j +' you win'}
    } /* i want to make somewhere that i can display this */
 
