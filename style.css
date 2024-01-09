@@ -47,7 +47,8 @@ start rock paperscissors*/
 start of memory game */
 
 #grid{margin: 10px;
-width: 450;
-height: 350;
-
+width: 420px;
+height: 320px;
+display: flex;
+flex-wrap: wrap;
 }
