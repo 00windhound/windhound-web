@@ -46,3 +46,8 @@ start rock paperscissors*/
 /* end of rock paper scissors
 start of memory game */
 
+#grid{margin: 10px;
+width: 450;
+height: 350;
+
+}
