@@ -9,6 +9,8 @@ let result
 const wincountdisplay =document.getElementById('wincount')
 const drawcountdisplay =document.getElementById('drawcount')
 const losecountdisplay =document.getElementById('losecount')
+let moneydisplay =document.getElementById('money')
+let money = 0
 let wincount = 0
 let drawcount = 0
 let losecount= 0
@@ -42,4 +44,9 @@ function counter(){
 if (result === 'you win!'){wincount= wincount+= 1; wincountdisplay.innerHTML=wincount}
 if (result === 'a draw!'){drawcount= drawcount += 1; drawcountdisplay.innerHTML=drawcount}
 if (result === 'failed'){losecount= losecount +=1; losecountdisplay.innerHTML=losecount}
+if (result === 'you win!'){money= money+= 5}
+if (result === 'a draw!'){money= money+=1}
+if (result === 'failed'){money-= 4}
+moneydisplay.innerHTML=money
 } /* omg i wanna cry i can't believe it works <3333 */
+
