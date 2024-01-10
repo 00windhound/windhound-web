@@ -18,3 +18,12 @@ margin
 in the head theres a meta charset utf-8 or something like that and thats what you use for
 <script src="rockpaperscissors.js" charset="UTF-8"></script>
 at the bottom of the page
+
+i need a new idea.
+for monopoly or some board game i dont want to take turns i want a continuous game.
+or a farm game? game of life? 
+
+genetics or evolution game? one type of animal you breed for strength or speed, color, for value. you train them invest in them compete for money and they can get old or die. breed your own animals for free, buy better animals. more expensive more animals you have 
+
+legacy life game? game of chance and investments, a life boardgame where multiple people go through at a time and as your family grows you have to invest into everyones skills and keep your family wealthy. ill need a way to create new caracters, to track money, aging and have chance of death go up by age. pay for college pay rent or morgage pay for car. cards for jobs and requirements and salary.
+
