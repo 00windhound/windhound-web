@@ -45,7 +45,6 @@ start rock paperscissors*/
 
 /* end of rock paper scissors
 start of memory game */
-
 #grid{margin: 10px;
 width: 420px;
 height: 320px;
@@ -54,8 +53,18 @@ flex-wrap: wrap;
 }
 /* end memory 
 start wackamole */
-.grid{
-    width: 600px;
-    height: 600px;
+.wack{color:beige}
+.g{
+    width: 607px;
+    height: 607px;
+    display:flex;
+    flex-wrap:wrap;  
+    background-color: beige;
 }
-.square{ }
+.square{ 
+    height:200px;
+    width: 200px;
+    border:1px solid black;  
+    background-color: aliceblue;
+}
+.mole{background-color: blue;}

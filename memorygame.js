@@ -72,3 +72,21 @@ else{
 
 /* end memory 
 start wackamole */
+const square =document.querySelectorAll('.square')
+const mole = document.querySelector('.mole')
+const time = document.querySelector('.time')
+const score = document.querySelector('.score')
+
+let result =0
+
+function randomsquare(){
+  square.forEach(square =>{
+    square.classList.remove('mole')})
+  let randoms=square[Math.floor(math.random()*9)]
+  randoms.classList.add('mole')
+}
+
+function movemole(){
+  let timeid = null
+  timeid = setInterval(randomsquare, 500)
+}
