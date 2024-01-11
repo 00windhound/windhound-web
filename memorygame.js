@@ -70,3 +70,5 @@ else{
    if(cardswon.length == cardarray.length/2){resultdisplay.innerHTML= j +' you win'}
    } /* i want to make somewhere that i can display this */
 
+/* end memory 
+start wackamole */

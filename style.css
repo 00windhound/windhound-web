@@ -52,3 +52,10 @@ height: 320px;
 display: flex;
 flex-wrap: wrap;
 }
+/* end memory 
+start wackamole */
+.grid{
+    width: 600px;
+    height: 600px;
+}
+.square{ }
