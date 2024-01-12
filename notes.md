@@ -27,6 +27,9 @@ genetics or evolution game? one type of animal you breed for strength or speed, 
 
 legacy life game? game of chance and investments, a life boardgame where multiple people go through at a time and as your family grows you have to invest into everyones skills and keep your family wealthy. ill need a way to create new caracters, to track money, aging and have chance of death go up by age. pay for college pay rent or morgage pay for car. cards for jobs and requirements and salary.
 
-pet game
+pet game. buy a few pets and do stuff with them
 
 slot machine. table and rows. give the pictures an order and fit them in the dimentions. test for row all the same. money, same as rock paperscissors. small bet looks at one row 
+
+if i won a million dollars. have an account of a million and use it to buy stuff until you run out
+have a store with catagories, items subtract from money. have a cart, each item has add to cart button, items show up in cart, cart has total amount after tax, 
