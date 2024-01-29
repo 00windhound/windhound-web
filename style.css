@@ -29,7 +29,7 @@ header{
     text-align: justify; /* no change, justify should make it fill the space?*/
 }
 .ideas:hover{
-box-shadow: 8px 8px 8px rgb(123, 230, 208), -5px -5px 8px rgb(123, 230, 208);
+box-shadow: 0px 0px 8px 8px  hsl(173, 100%, 50%), -5px -5px 8px rgb(123, 230, 208);
 }
 .projecttext{
     /*border:2px solid red;*/
@@ -41,6 +41,9 @@ box-shadow: 8px 8px 8px rgb(123, 230, 208), -5px -5px 8px rgb(123, 230, 208);
 }
 .projectdescription{
     text-overflow: auto;
+}
+#farm{
+    background-color: aquamarine;
 }
 #minecraft{
     background-color: aqua;
