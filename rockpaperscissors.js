@@ -28,8 +28,8 @@ function gencompchoice(){
    if(randomnumber === 0){ computerchoice ='rock'}
    if(randomnumber === 1){ computerchoice='paper'}
    if(randomnumber === 2){ computerchoice='scissors'}
-   computerchoicedisplay.innerHTML = computerchoice
-}
+   computerchoicedisplay.innerHTML = computerchoice //so we have computer choice but the pictures messed up the user choice
+}  // and i cant see anything in the console
 function getresult(){
     if (computerchoice === userchoice){ result ='a draw!'}
     if (computerchoice === 'rock' && userchoice === 'paper'){result= 'you win!'}
