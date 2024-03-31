@@ -5,6 +5,16 @@ const possible = document.querySelectorAll('button')
 const computerpic = document.getElementById('computerpic')
 const rock = document.createElement("img");
 rock.src = "pics/rock.png";
+const paper = document.createElement("img")
+paper.src = "pics/paper.png";
+const scissors = document.createElement("img")
+scissors.src = "pics/scissors.png";
+const greyrock = document.createElement("img");
+greyrock.src = "pics/greyrock.png";
+const greypaper = document.createElement("img");
+greypaper.src = "pics/greypaper.png";
+const greyscissors = document.createElement("img");
+greyscissors.src = "pics/greyscissors.png";
 let userchoice
 let computerchoice
 let result
@@ -32,7 +42,34 @@ function gencompchoice(){
    if(randomnumber === 1){ computerchoice='paper'}
    if(randomnumber === 2){ computerchoice='scissors'}
    computerchoicedisplay.innerHTML = computerchoice
-    document.body.appendChild(rock)
+    if(computerchoice === 'rock'){
+        //document.getElementById('comppics').()
+        document.getElementById('comprock').replaceChildren()
+        document.getElementById('comprock').appendChild(rock)
+        document.getElementById('comppaper').replaceChildren()
+        document.getElementById('comppaper').appendChild(greypaper)
+        document.getElementById("compscissors").replaceChildren()
+        document.getElementById("compscissors").appendChild(greyscissors)
+    }
+    else if(computerchoice === 'paper'){
+        //document.getElementById('comppics').()
+        document.getElementById('comprock').replaceChildren()
+        document.getElementById('comprock').appendChild(greyrock)
+        document.getElementById('comppaper').replaceChildren()
+        document.getElementById('comppaper').appendChild(paper)
+        document.getElementById("compscissors").replaceChildren()
+        document.getElementById("compscissors").appendChild(greyscissors)
+
+    }
+    else if(computerchoice === 'scissors'){
+        //document.getElementById('comppics').replaceChildren()
+        document.getElementById('comprock').replaceChildren()
+        document.getElementById('comprock').appendChild(greyrock)
+        document.getElementById('comppaper').replaceChildren()
+        document.getElementById('comppaper').appendChild(greypaper)
+        document.getElementById("compscissors").replaceChildren()
+        document.getElementById("compscissors").appendChild(scissors)
+    }
 }
 function getresult(){
     if (computerchoice === userchoice){ result ='a draw!'}
