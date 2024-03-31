@@ -2,6 +2,9 @@ const computerchoicedisplay =document.getElementById('computerchoice')
 const userchoicedisplay =document.getElementById('userchoice')
 const resultdisplay = document.getElementById('result')
 const possible = document.querySelectorAll('button')
+const computerpic = document.getElementById('computerpic')
+const rock = document.createElement("img");
+rock.src = "pics/rock.png";
 let userchoice
 let computerchoice
 let result
@@ -28,8 +31,9 @@ function gencompchoice(){
    if(randomnumber === 0){ computerchoice ='rock'}
    if(randomnumber === 1){ computerchoice='paper'}
    if(randomnumber === 2){ computerchoice='scissors'}
-   computerchoicedisplay.innerHTML = computerchoice //so we have computer choice but the pictures messed up the user choice
-}  // and i cant see anything in the console
+   computerchoicedisplay.innerHTML = computerchoice
+    document.body.appendChild(rock)
+}
 function getresult(){
     if (computerchoice === userchoice){ result ='a draw!'}
     if (computerchoice === 'rock' && userchoice === 'paper'){result= 'you win!'}
