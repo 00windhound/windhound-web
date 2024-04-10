@@ -74,17 +74,14 @@ start rock paperscissors*/
     flex-direction: row;
 }
 #boxleft{
-    border: 2px solid red;
     width: 49%;
     text-align: center;
 }
 #boxright{
-    border: 2px solid orange;
     width: 49%;
     text-align: center;
 }
 #boxbottom{
-    border: 2px solid yellow;
     text-align: center;
     margin-top: 50px;
 }
